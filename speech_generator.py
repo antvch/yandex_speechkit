@@ -23,4 +23,3 @@ def synthesize(folder_id, iam_token, text):
 
         for chunk in resp.iter_content(chunk_size=None):
             yield chunk
-
